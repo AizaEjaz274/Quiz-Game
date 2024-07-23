@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="glow-effect"><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="quiz">
+            <h1>Maths Quiz</h1>
+            <form id="quizForm">
+                <div class="question">
+                    <p>1. What is 2 + 2?</p>
+                    <input type="radio" name="q1" value="a"> 3<br>
+                    <input type="radio" name="q1" value="b"> 4<br>
+                    <input type="radio" name="q1" value="c"> 5<br>
+                </div>
+                <div class="question">
+                    <p>2. What is 5 x 3?</p>
+                    <input type="radio" name="q2" value="a"> 15<br>
+                    <input type="radio" name="q2" value="b"> 20<br>
+                    <input type="radio" name="q2" value="c"> 10<br>
+                </div>
+                <div class="question">
+                    <p>3. What is the square root of 16?</p>
+                    <input type="radio" name="q3" value="a"> 3<br>
+                    <input type="radio" name="q3" value="b"> 4<br>
+                    <input type="radio" name="q3" value="c"> 5<br>
+                </div>
+                <div class="question">
+                    <p>4. What is 9 divided by 3?</p>
+                    <input type="radio" name="q4" value="a"> 2<br>
+                    <input type="radio" name="q4" value="b"> 3<br>
+                    <input type="radio" name="q4" value="c"> 4<br>
+                </div>
+                <div class="question">
+                    <p>5. What is 7 - 2?</p>
+                    <input type="radio" name="q5" value="a"> 4<br>
+                    <input type="radio" name="q5" value="b"> 5<br>
+                    <input type="radio" name="q5" value="c"> 6<br>
+                </div>
+                <!-- Add more questions similarly -->
+                <input type="submit" id="submitBtn" value="Submit">
+            </form>
+            <p id="result"></p>
+        </div>
+    </main>
+    <script src="maths.js"></script>
+</body>
+</html>
